@@ -3,7 +3,6 @@ let users = [
     {id: 1, name: "xiaoming"},
     {id: 2, name: "xiaohong"},
     {id: 3, name: "xiaozhang"},
-    {id: 4, name: "xiaowang"},
 ];
 
 const server = http.createServer(function(req, res) {
