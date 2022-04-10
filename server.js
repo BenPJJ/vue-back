@@ -2,7 +2,7 @@ const http = require("http");
 let users = [
     {id: 1, name: "xiaoming"},
     {id: 2, name: "xiaohong"},
-    {id: 3, name: "xiaozhang"},
+    {id: 31, name: "xiaozhang"},
 ];
 
 const server = http.createServer(function(req, res) {
